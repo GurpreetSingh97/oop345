@@ -1,0 +1,75 @@
+Script started on Tue 27 Mar 2018 11:08:25 PM EDT
+gsingh520@matrix:~/oop345/ms> whoami
+gsingh520
+gsingh520@matrix:~/oop345/ms> g++ main.cpp Utilities.cpp Item.cpp CustomerOrder.cpp CustomerItem.cpp -std=c++0x -o ms2
+gsingh520@matrix:~/oop345/ms> [Kgsingh520@matrix:~/oop345/ms> ms2 CleanCustomerOre[KderFile.txt CleanItemFile.txt '|' [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K'
+Command Line Arguments
+----------------------
+Customer Order File Specified = CleanCustomerOrderFile.txt
+Item File Specified           = CleanItemFile.txt
+File Record Field Delimiter   = |
+
+
+*** Load and Accept the Customer Orders ***
+
+List of Accepted Customer Orders
+--------------------------------
+Fardad Soleimanloo  : Dell Precision 3600
+ - [00000] CPU
+ - [00000] Memory
+ - [00000] Memory
+Joseph Hughes       : HP Z230            
+ - [00000] CPU
+ - [00000] Memory
+Chris Szalwinski    : HP Z350            
+ - [00000] CPU
+ - [00000] Memory
+ - [00000] SSD
+ - [00000] GPU
+Elliott Coleshill   : HP Apollo 1000     
+ - [00000] CPU
+ - [00000] MEMORY
+ - [00000] Power Supply
+ - [00000] GPU
+
+*** Load and Accept the Items in Stock ***
+
+List of Items in Stock
+----------------------
+CPU          [00300] From CPU          To Remove CPU  
+                   : Central Processing Unit
+Memory       [00400] From Memory       To Remove Memory
+                   : Samsung Memory Stick
+GPU          [00500] From GPU          To Remove GPU  
+                   : Nvidia Geforce 750M
+Power Supply [00100] From Power Supply To Remove Power Supply
+                   : no detailed description
+
+*** Process the Customer Orders ***
+
+List of Processed Customer Orders
+---------------------------------
+Fardad Soleimanloo  : Dell Precision 3600
+ + [00300] CPU
+ + [00400] Memory
+ + [00401] Memory
+Joseph Hughes       : HP Z230            
+ + [00301] CPU
+ + [00402] Memory
+Chris Szalwinski    : HP Z350            
+ + [00302] CPU
+ + [00403] Memory
+ - [00000] SSD
+ + [00500] GPU
+Elliott Coleshill   : HP Apollo 1000     
+ + [00303] CPU
+ - [00000] MEMORY
+ + [00100] Power Supply
+ + [00501] GPU
+
+Done!
+Press Enter Key to Exit ... 
+gsingh520@matrix:~/oop345/ms> exit
+exit
+
+Script done on Tue 27 Mar 2018 11:11:06 PM EDT
