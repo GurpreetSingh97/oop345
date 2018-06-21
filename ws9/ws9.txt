@@ -1,0 +1,36 @@
+Script started on Sun 22 Apr 2018 09:04:19 PM EDT
+gsingh520@matrix:~/oop345/ws9> whoami
+gsingh520
+gsingh520@matrix:~/oop345/ws9> g++ main [K.cpp SecureData.cpp -o ws -pthread -std=c++ 0x
+gsingh520@matrix:~/oop345/ws9> ws w10_text.txt encoded.txt %
+
+Command Line : ws w10_text.txt encoded.txt % 
+
+938 bytes copied from text w10_text.txt into memory (null byte added)
+Data encrypted in memory
+
+939 bytes copied from binary file encoded.txt into memory (null byte included)
+Data decrypted in memory
+
+ Compound types are types that a programmer constructs from a language's
+ fundamental types and/or other compound types.  In C++11, compound types 
+ include pointers and references to existing types, enumerations of named 
+ constant values, arrays of objects of an existing type, classes and function
+ types.  C++11 clarified the difference between lvalues and rvalues and 
+ references to each, which helped simplify many of the facilities available
+ in the standard library.
+
+ This chapter describes the non-function types in detail.  The description 
+ includes a review of one-dimensional arrays in both static and dynamic memory
+ and shows how to allocate multi-dimensional arrays in both static and dynamic
+ memory.  The description of classes reviews class definitions, introduces
+ move-constructors and move-assignment operators and includes declarations of
+ special members such as bit fields, class variables and class functions.
+
+
+
+Press any key to continue ... 
+gsingh520@matrix:~/oop345/ws9> exit
+exit
+
+Script done on Sun 22 Apr 2018 09:05:21 PM EDT

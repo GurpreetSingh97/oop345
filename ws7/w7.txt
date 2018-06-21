@@ -1,0 +1,21 @@
+Script started on Sat 14 Apr 2018 08:36:56 PM EDT
+gsingh520@matrix:~/oop345/ws7> whoami
+gsingh520
+gsingh520@matrix:~/oop345/ws7> g++ main.cpp DataTablr.h[K[K[Ke.h -std=c++0x -o ws
+gsingh520@matrix:~/oop345/ws7> ws HS_College_GPA.txt
+
+Command Line : ws HS_College_GPA.txt 
+
+Statistics
+==========
+y mean    =    3.12
+y sigma   =    0.50
+y median  =    3.21
+slope     =    0.78
+intercept =    0.73
+
+Press any key to continue ... 
+gsingh520@matrix:~/oop345/ws7> exit
+exit
+
+Script done on Sat 14 Apr 2018 08:37:43 PM EDT

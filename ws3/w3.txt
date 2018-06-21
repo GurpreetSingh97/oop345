@@ -1,0 +1,60 @@
+Script started on Tue 13 Feb 2018 11:22:40 PM EST
+gsingh520@matrix:~/oop345/ws3> whoami
+gsingh520
+gsingh520@matrix:~/oop345/ws3> g++ w3.cpp -o w3
+gsingh520@matrix:~/oop345/ws3> w3
+
+Inventory
+=========
+Product : Pizza
+Price : 4.49
+Product : Pierogi
+Price : 2.56
+Product : Potato Chips
+Price : 2.29
+Product : Black Tea
+Price : 4.49
+Product : Green Tea
+Price : 3.46
+Product : Fruit Tea
+Price : 2.29
+Product : quit
+
+Price List
+----------
+        Pizza : 4.49
+      Pierogi : 2.56
+ Potato Chips : 2.29
+    Black Tea : 4.49
+    Green Tea : 3.46
+
+Corrections
+-----------
+Product : 4.49    Black Tea
+Price : 5.29
+Product : quit
+
+Price List
+----------
+        Pizza : 4.49
+      Pierogi : 2.56
+ Potato Chips : 2.29
+    Black Tea : 5.29
+    Green Tea : 3.46
+
+Glossary
+========
+Key : CPU
+Definition : centrsl processing unit
+Key : ALU
+Definition : arithmetic logic unit
+Key : quit
+
+Entries
+-------
+  CPU : centrsl processing unit
+  ALU : arithmetic logic unit
+gsingh520@matrix:~/oop345/ws3> exit
+exit
+
+Script done on Tue 13 Feb 2018 11:24:35 PM EST

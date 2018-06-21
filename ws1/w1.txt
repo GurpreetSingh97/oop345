@@ -1,0 +1,18 @@
+Script started on Tue 30 Jan 2018 08:05:24 PM EST
+gsingh520@matrix:~/oop345> whoami
+gsingh520
+gsingh520@matrix:~/oop345> cat w1_cpp.cpp
+cat: w1_cpp.cpp: No such file or directory
+gsingh520@matrix:~/oop345> g++ -o w1 w1.cpp cString.cpp process.cpp
+gsingh520@matrix:~/oop345> w1 oop345 btp305
+Command Line : w1 oop345 btp305
+Maximum number of characters stored : 3
+0: oop
+1: btp
+gsingh520@matrix:~/oop345> w1
+Command Line : w1
+Insufficient number of arguments (min 1)
+gsingh520@matrix:~/oop345> exit
+exit
+
+Script done on Tue 30 Jan 2018 08:06:17 PM EST

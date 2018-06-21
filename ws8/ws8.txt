@@ -1,0 +1,56 @@
+Script started on Tue 17 Apr 2018 08:20:20 PM EDT
+gsingh520@matrix:~/oop345/ws8> whoami
+gsingh520
+gsingh520@matrix:~/oop345/ws8> g++ w8.cpp -std=c++0x -o ws
+gsingh520@matrix:~/oop345/ws8> ws Descriptions.dat Prices.dat
+
+Command Line : ws Descriptions.dat Prices.dat 
+
+ Code Description
+ 4662    tomatoes
+ 4039   cucumbers
+ 4056    brocolli
+ 4067      lemons
+ 4068     oranges
+
+
+ Code   Price
+ 4067    0.99
+ 4068    0.67
+ 4039    1.99
+ 4056    2.49
+
+
+ Description   Price
+   cucumbers    1.99
+    brocolli    2.49
+      lemons    0.99
+     oranges    0.67
+
+
+Press any key to continue ... 
+gsingh520@matrix:~/oop345/ws8> ws Descriptions.dat BadPrices.dat
+
+Command Line : ws Descriptions.dat BadPrices.dat 
+
+ Code Description
+ 4662    tomatoes
+ 4039   cucumbers
+ 4056    brocolli
+ 4067      lemons
+ 4068     oranges
+
+
+ Code   Price
+ 4067    0.99
+ 4068    0.67
+ 4039    1.99
+ 4056   -2.49
+
+*** Negative prices are invalid ***
+
+Press any key to continue ... 
+gsingh520@matrix:~/oop345/ws8> exit
+exit
+
+Script done on Tue 17 Apr 2018 08:21:26 PM EDT

@@ -1,0 +1,32 @@
+Script started on Wed 28 Feb 2018 03:37:07 PM EST
+gsingh520@matrix:~/oops345/ws4> whoami
+gsingh520
+gsingh520@matrix:~/oops345/ws4> g++ Message.cpp w5.cpp Notifications.cpp -std=c++0 x -o w4
+gsingh520@matrix:~/oops345/ws4> w4 file.txt
+
+Notifications
+=============
+
+Message
+User  : jim
+Tweet : Workshop 5 is cool
+
+Message
+User  : harry
+Reply : jim
+Tweet : working on workshop 5 now
+
+Message
+User  : dave
+Tweet : what the ^#$%!
+
+Message
+User  : john
+Reply : harry
+Tweet : I'm done
+
+Press any key to continue ... 
+gsingh520@matrix:~/oops345/ws4> sc[K[Kexit
+exit
+
+Script done on Wed 28 Feb 2018 03:38:07 PM EST

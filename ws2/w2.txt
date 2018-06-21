@@ -1,0 +1,16 @@
+Script started on Wed 07 Feb 2018 12:10:31 AM EST
+gsingh520@matrix:~/oop345/ws2> whoami
+gsingh520
+gsingh520@matrix:~/oop345/ws2> g++ w2.cpp Text.cpp -std=c++0x -o w2
+gsingh520@matrix:~/oop345/ws2> w2 gutenberg_shakespeare.txt
+Constructor      0.000 seconds - a.size = 0
+Constructor      0.070 seconds - b.size = 77560
+Copy Assignment  0.000 seconds - a.size = 0
+Move Assignment  0.000 seconds - a.size = 0
+Copy Constructor 0.000 seconds - c.size = 0
+Move Constructor 0.000 seconds - d.size = 0
+Destructor       0.010 seconds
+gsingh520@matrix:~/oop345/ws2> exit
+exit
+
+Script done on Wed 07 Feb 2018 12:11:19 AM EST
