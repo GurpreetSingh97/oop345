@@ -1,0 +1,10 @@
+
+In line number 3 of your output:
+The output should be:
+Empty Product:
+But your output is: 
+exit
+^
+|
+Professor's character ASCII code: hex(45), dec(69)
+un-matched character ASCII code: hex(65), dec(101)
